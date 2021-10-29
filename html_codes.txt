@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UFT-8">
+        <title> HCK </title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel ="stylesheet" href="style.css">
+        <script src="myScript.js"></script>
+
+    </head>
+    <body>
+
+
+        <div class="mainCSS">
+            <h2>Welcome to My Page</h2>
+        </div>
+
+
+        <div class="mainCSS" >
+            <nav>
+                <a href="/aboutMe.html">About Me</a> |
+                <a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi Radio</a>
+            </nav>
+        </div>
+
+        
+        <div class= "mainCSS">
+            <form action="aboutMe.html">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="submit">
+              </form>
+        </div>
+              
+        
+        <div class="mainCSS">
+            What do you think about my Page?
+            <form action="aboutMe.html" > 
+            <input type="radio" id="good" name="like" value="Good">
+            <label for="good">Good</label><br>
+
+            <input type="radio" id="amazing" name="like" value="Amazing">
+            <label for="Amazing">Amazing</label><br>
+
+            <input type="radio" id="exceptional" name ="like" value="exceptional">
+            <label for ="exceptional">Exceptional</label><br>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        
+        <div style ="text-align: center;">
+            <a href="https://tr.linkedin.com/in/hakan-cenk-kalinoglu-5a8881198">
+                <img src="images/linkedin.png">
+            </a>
+            <a href="mailto:hakancenkkalinoglu@gmail.com">
+                <img src ="images/gmail1.png">
+            </a>
+            </div>
+
+
+
+
+
+            
+        </body>
+        </html>
