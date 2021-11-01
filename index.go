@@ -23,7 +23,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	// do this now so it won't be forgotten
+	
 	defer resp.Body.Close()
 	// reads html as a slice of bytes
 	html, err := ioutil.ReadAll(resp.Body)
